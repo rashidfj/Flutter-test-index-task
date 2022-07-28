@@ -46,7 +46,8 @@ class TopImage extends StatelessWidget {
       child: Stack(
         children: [
           Container(
-            margin: const EdgeInsets.only(left: 300,top: 80),
+            alignment: Alignment.center,
+            margin: const EdgeInsets.only(right: 600,top: 120),
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 _title(),
                 const SizedBox(height: 20),
